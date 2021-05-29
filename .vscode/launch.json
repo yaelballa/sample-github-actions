@@ -5,31 +5,31 @@
             "type": "node-terminal",
             "request": "launch",
             "name": "Dev typescript-express-starter",
-            "command": "npm run dev"
+            "command": "yarn dev"
         },
         {
             "type": "node-terminal",
             "request": "launch",
             "name": "Start typescript-express-starter",
-            "command": "npm run start"
+            "command": "yarn start"
         },
         {
             "type": "node-terminal",
             "request": "launch",
             "name": "Test typescript-express-starter",
-            "command": "npm run test"
+            "command": "yarn test"
         },
         {
             "type": "node-terminal",
             "request": "launch",
             "name": "Lint typescript-express-starter",
-            "command": "npm run lint"
+            "command": "yarn lint"
         },
         {
             "type": "node-terminal",
             "request": "launch",
             "name": "Lint:Fix typescript-express-starter",
-            "command": "npm run lint:fix"
+            "command": "yarn lint:fix"
         }
     ]
 }
