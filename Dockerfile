@@ -5,7 +5,7 @@ COPY . ./app
 
 WORKDIR /app
 
-RUN yarn install
+RUN npm install
 
 EXPOSE 3000
 
@@ -14,11 +14,11 @@ FROM common-build-stage as development-build-stage
 
 ENV NODE_ENV development
 
-CMD ["yarn", "dev"]
+CMD ["npm", "run", "dev"]
 
 # Production build stage
 FROM common-build-stage as production-build-stage
 
 ENV NODE_ENV production
 
-CMD ["yarn", "start"]
+CMD ["npm", "run", "start"]
