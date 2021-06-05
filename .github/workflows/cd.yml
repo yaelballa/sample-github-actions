@@ -24,7 +24,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: user/app:latest
+          tags: yaelballadocker/test:latest
           
       - uses: 8398a7/action-slack@v3
         with:
